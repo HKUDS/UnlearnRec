@@ -1,6 +1,6 @@
 cd ../..
 python fineTune.py\
-    --model_2_finetune ./checkpoints/gowalla/pretrain_4_unlearning/tmp\
+    --model_2_finetune ./checkpoints/gowalla/pretrain_4_unlearning/tmp1\
     --save_path ./checkpoints/gowalla/finetuned/ft_tmp\
     --seed 1234\
     --adversarial_attack True\
